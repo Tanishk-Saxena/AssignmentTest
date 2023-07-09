@@ -17,13 +17,13 @@ void pattern(int n)
 			if (i > (n - j + 1))
 				cout << " ";
 			else
-				cout << "*";
+				cout << "@";
 				
 			// Right part of pattern
 			if ((i + n) > j)
 				cout << " ";
 			else
-				cout << "*";
+				cout << "@";
 		}
 		cout << endl ;
 	}
@@ -38,13 +38,13 @@ void pattern(int n)
 			if (i < j)
 				cout << " ";
 			else
-				cout << "*";
+				cout << "@";
 			
 			// Left Part of pattern
 			if (i <= ((2 * n) - j))
 				cout << " ";
 			else
-				cout << "*";
+				cout << "@";
 		}
 		cout << endl;
 	}
