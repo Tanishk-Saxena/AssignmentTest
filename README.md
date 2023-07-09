@@ -3,6 +3,7 @@ Testing internship assignment. Repository will contain several codes, basic prog
 
 ### Source Code of the index.js file for probot project:
 
+```
 /**
  * This is the main entrypoint to your Probot app
  * @param {import('probot').Probot} app
@@ -115,6 +116,7 @@ module.exports = (app) => {
   // To get your app running against GitHub, see:
   // https://probot.github.io/docs/development/
 };
+```
 
 ### To test this app, I will have to host it first, make it available on the github market place, and then any user can install this on their repository and it will monitor the pull requests over that repository.
 
